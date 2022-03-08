@@ -18,7 +18,7 @@ body{
     top: 33px;
     margin-top:10px;
     left: 50%;
-    margin-left:-100px;
+    margin-left:-150px;
     background-color: whitesmoke;
     width: 300px;
     height:400px;
@@ -73,13 +73,13 @@ box-shadow:0px -15px rgb(199, 197, 192) ;
 
 #three{
     position:absolute;
-    top:250px;
+    top:238px;
     left: 943px;
     margin-top:100px;
     
-    margin-left:-200px;
+    margin-left:-772px;
     background-color:rgb(20, 141, 141);
-    width:150px;
+    width:142px;
     height:0px;
 
     text-align: center;
