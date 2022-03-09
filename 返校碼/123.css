@@ -118,3 +118,25 @@ h0{
     left:133px;
 color:white
 }
+#circle1{
+ position: absolute;
+ z-index: 1;
+    margin-top:-97px;
+    left: 0%;
+    margin-left: 92px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100em;
+    background-color:rgb(49, 109, 117)
+}
+#circle2{
+    position: absolute;
+    z-index: 1;
+       margin-top:-97px;
+       left: 0%;
+       margin-left: 397px;
+       width: 24px;
+       height: 24px;
+       border-radius: 100em;
+       background-color:rgb(49, 109, 117)
+   }
