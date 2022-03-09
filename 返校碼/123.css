@@ -103,7 +103,7 @@ color:white
     left: 50%;
     margin-left:-150px;
     background-color:rgb(60, 135,68);
-    width: 302px;
+    width: 300px;
     height:0px;
     border-radius: 10px;
     text-align: center;
@@ -112,9 +112,10 @@ color:white
 
 }
 h0{
+    font-weight:lighter;
     font-size:25px;
     position:relative;
-    font-weight: -1;
+    
     top:-34px;
     left:129px;
 color:white
@@ -141,7 +142,7 @@ color:white
        border-radius: 100em;
        background-color:rgb(49, 109, 117)
    }
-#cc{letter-spacing:2px;
+p5{letter-spacing:2px;
         font-size:17px;
         font-weight: 900;
         position:relative;
