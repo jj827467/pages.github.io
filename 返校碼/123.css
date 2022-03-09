@@ -74,7 +74,7 @@ box-shadow:0px -15px rgb(199, 197, 192) ;
 #three{
     position:absolute;
     top:238px;
-    left: 920px;
+    left: 925px;
     margin-top:100px;
     
     margin-left:-801px;
@@ -98,9 +98,9 @@ color:white
 }
 #green{
     position:absolute;
-    top: 48px;
+    top: 385px;
     margin-top:10px;
-    left: 93%;
+    left: 40%;
     margin-left:-150px;
     background-color:rgb(60, 135,68);
     width: 302px;
@@ -114,7 +114,7 @@ color:white
 h0{
     font-size:25px;
     position:relative;
-    top:30px;
-    left:66px;
+    top:-30px;
+    left:146px;
 color:white
 }
