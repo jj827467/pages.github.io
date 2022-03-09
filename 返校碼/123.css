@@ -121,22 +121,22 @@ color:white
 #circle1{
  position: absolute;
  z-index: 1;
-    margin-top:-97px;
+    margin-top:-103px;
     left: 0%;
-    margin-left: 92px;
+    margin-left: 10px;
     width: 24px;
     height: 24px;
     border-radius: 100em;
-    background-color:rgb(49, 109, 117)
+    background-color:black
 }
 #circle2{
     position: absolute;
     z-index: 1;
-       margin-top:-97px;
+       margin-top:-103px;
        left: 0%;
-       margin-left: 397px;
+       margin-left: 309px;
        width: 24px;
        height: 24px;
        border-radius: 100em;
-       background-color:rgb(49, 109, 117)
+       background-color:black
    }
