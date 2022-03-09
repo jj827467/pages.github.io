@@ -78,7 +78,7 @@ box-shadow:0px -15px rgb(199, 197, 192) ;
     margin-top:100px;
     
     margin-left:-801px;
-    background-color:rgb(65, 147, 135);
+    background-color:#419387;
     width:142px;
     height:0px;
 
@@ -121,7 +121,7 @@ color:white
     z-index: 0;
     width: 290px;
     height: 5%;
-      background-image: -webkit-gradient(linear, 0% 5%, 50% 2%, from(#37c9b0), color-stop(.5, #41a9f9), color-stop(.5, #fff));
+      background-image: -webkit-gradient(linear, 0% 5%, 50% 2%, from(#419387), color-stop(.5, #41a9f9), color-stop(.5, #fff));
   
     background-repeat: repeat-x;
   background-color:whitesmoke;
