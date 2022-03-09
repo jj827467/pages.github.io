@@ -100,14 +100,14 @@ color:white
     position:absolute;
     top: 385px;
     margin-top:10px;
-    left: 40%;
+    left: 50%;
     margin-left:-150px;
     background-color:rgb(60, 135,68);
     width: 302px;
     height:0px;
     border-radius: 10px;
     text-align: center;
-    padding:43px 40px;
+    padding:40px 40px;
     box-sizing: border-box;
 
 }
@@ -115,6 +115,6 @@ h0{
     font-size:25px;
     position:relative;
     top:-30px;
-    left:146px;
+    left:135px;
 color:white
 }
