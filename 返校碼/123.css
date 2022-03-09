@@ -114,6 +114,7 @@ color:white
 h0{
     font-size:25px;
     position:relative;
+    font-weight: -1;
     top:-34px;
     left:130px;
 color:white
@@ -140,13 +141,14 @@ color:white
        border-radius: 100em;
        background-color:rgb(49, 109, 117)
    }
-#cc{
-        font-size:18px;
+#cc{letter-spacing:2px;
+        font-size:17px;
         font-weight: 900;
         position:relative;
         top:85px;
         left:1px;
         color:white
+        
 }
 #end1{
      
