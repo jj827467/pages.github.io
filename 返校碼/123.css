@@ -85,6 +85,7 @@ box-shadow:0px -15px rgb(199, 197, 192) ;
     text-align: center;
     padding:25px 20px;
     box-sizing: border-box;
+    
 
 }
 p4{
@@ -111,7 +112,23 @@ color:white
     box-sizing: border-box;
 
 }
-h0{
+#green::before
+{
+    content: " ";
+    position: absolute;
+    top: -5%;
+    left: 9px;
+    z-index: 0;
+    width: 290px;
+    height: 5%;
+      background-image: -webkit-gradient(linear, 0% 5%, 50% 2%, from(#37c9b0), color-stop(.5, #41a9f9), color-stop(.5, #fff));
+  
+    background-repeat: repeat-x;
+  background-color:whitesmoke;
+    background-size: 2px 8px;
+    background-position: 2px 3px;
+}
+p6{
     font-weight:lighter;
     font-size:25px;
     position:relative;
