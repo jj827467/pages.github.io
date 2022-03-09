@@ -74,7 +74,7 @@ box-shadow:0px -15px rgb(199, 197, 192) ;
 #three{
     position:absolute;
     top:238px;
-    left: 923px;
+    left: 920px;
     margin-top:100px;
     
     margin-left:-801px;
@@ -115,7 +115,7 @@ h0{
     font-size:25px;
     position:relative;
     top:-34px;
-    left:133px;
+    left:130px;
 color:white
 }
 #circle1{
@@ -127,7 +127,7 @@ color:white
     width: 24px;
     height: 24px;
     border-radius: 100em;
-    background-color:black
+    background-color:rgb(49, 109, 117)
 }
 #circle2{
     position: absolute;
@@ -138,13 +138,13 @@ color:white
        width: 24px;
        height: 24px;
        border-radius: 100em;
-       background-color:black
+       background-color:rgb(49, 109, 117)
    }
 #cc{
-        font-size:16px;
+        font-size:18px;
         
         position:relative;
         top:25px;
-        left:181px;
+        left:105px;
         color:white
 }
