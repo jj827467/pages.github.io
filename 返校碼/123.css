@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(49, 109, 117) no-repeat;
+    background: rgb(49, 110, 117) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 98%;
@@ -12,6 +12,17 @@ body {
 
 }
 
+.background {
+    position: absolute;
+    top: 350px;
+
+    left: 0;
+
+    background-color: rgb(41, 99, 111);
+    padding: 165px 500px;
+    box-sizing: border-box;
+    z-index: -1;
+}
 
 #name {
     position: absolute;
@@ -77,7 +88,7 @@ p3 {
 
 #three {
     position: absolute;
-    top: 238px;
+    top: 241px;
     left: 919px;
     margin-top: 100px;
 
@@ -97,7 +108,7 @@ p4 {
     font-size: 21px;
     position: relative;
     top: -15px;
-    left: 0px;
+    left: 6px;
     font-weight: blod;
     color: white
 }
@@ -140,7 +151,7 @@ p6 {
     position: relative;
 
     top: -34px;
-    left: 129px;
+    left: 137px;
     color: white
 }
 
@@ -153,7 +164,7 @@ p6 {
     width: 24px;
     height: 24px;
     border-radius: 100em;
-    background-color: rgb(49, 109, 117)
+    background-color: rgb(41, 99, 111)
 }
 
 #circle2 {
@@ -165,7 +176,7 @@ p6 {
     width: 24px;
     height: 24px;
     border-radius: 100em;
-    background-color: rgb(49, 109, 117)
+    background-color: rgb(41, 99, 111)
 }
 
 p5 {
@@ -173,7 +184,7 @@ p5 {
     font-size: 17px;
     font-weight: 900;
     position: relative;
-    top: 85px;
+    top: 72px;
     left: 0px;
     color: white
 }
