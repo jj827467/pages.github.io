@@ -8,9 +8,22 @@
 
 
   <link rel="stylesheet" href="123.css">
-  <title>返校及进出校园卡</title>
+  <title>学生进出学校核验</title>
+  <script language="JavaScript">
+    function ShowTime() {
+      var NowDate = new Date();
+      var year = NowDate.getFullYear();
+      var month = NowDate.getMonth() + 1;
+      var day = NowDate.getDate();
+      var h = NowDate.getHours();
+      var m = NowDate.getMinutes();
+      var s = NowDate.getSeconds();
+      document.getElementById('showbox').innerHTML = year + '/' + month + '/' + day + '  ' + h + ':' + m + ':' + s;
+      setInterval('ShowTime()', 1000);
+    }
+  </script>
 
-<body>
+<body onload="ShowTime()">
   <div class="background"></div>
   <div id="end"> </div>
 
@@ -18,23 +31,24 @@
 
     <h1>张永盛</h1>
     <p>2020055041</p>
-
     <p2>信息科技技术学院<br></p2>
-    <p3>番禺校区 T11</p3>
-    <img src="./na.jpg" style="position:absolute;top:119px;left:71px;">
-  </div>
 
-  <div id="three">
-    <p4>20日返校 </p4>
+    <img class="anima" mode="widthFix" @click="nav" src="./中碼.JPG" style="position:absolute;top:100px;left:90px;">
+
   </div>
-  <div id="green"></div>
-    <p6>允许进入</p6>
+  <div id="showbox"></div>
+  <div class="play-button-text">予以通行</div>
+
+  <div id="green">
+    <div id="circle1"></div>
+    <div id="circle2"></div>
   </div>
-  <div id="circle1"></div>
-  <div id="circle2"></div>
-    <p5>党委学生工作部 制</p5>
 
   <div id="end1"> </div>
+
+  <p5 class="work-deperment">党委学生工作部</p5>
+  <p5 class="make">制</p5>
+  <p5 class="internation">网络与教育技术中心</p5>
 
 
 </body>
