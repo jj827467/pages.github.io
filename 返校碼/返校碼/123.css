@@ -1,0 +1,296 @@
+* {
+    user-select: none;
+
+}
+
+body {
+    background: rgb(49, 110, 117) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 98%;
+    max-width: 900px;
+
+}
+
+.background {
+    position: absolute;
+    top: 330px;
+
+    left: 0;
+
+    background-color: rgb(41, 99, 111);
+    padding: 200px 190px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+#name {
+    position: absolute;
+    top: 33px;
+    margin-top: 10px;
+    left: 50%;
+    margin-left: -150px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 400px;
+    border-radius: 18px;
+    text-align: center;
+    padding: 50px 40px;
+    box-sizing: border-box;
+
+
+}
+
+h1 {
+    font-size: 28px;
+
+    position: relative;
+    top: -55px;
+    left: 0px;
+}
+
+p {
+    font-size: 19px;
+    position: relative;
+    top: -75px;
+    left: 0px;
+}
+
+p2 {
+    font-size: 14px;
+    position: relative;
+    top: -95px;
+    left: 0px;
+}
+
+p3 {
+    font-size: 14px;
+    position: relative;
+    top: -95px;
+    left: -1px;
+}
+
+#end {
+
+    position: relative;
+    top: -53px;
+    margin-top: 100px;
+    left: 209px;
+    margin-left: -150px;
+    background-color: 0.0.0.0;
+    width: 250px;
+    height: 350px;
+    border-radius: 18px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    box-shadow: 0px -15px rgb(199, 197, 192);
+}
+
+#three {
+    position: absolute;
+    top: 241px;
+    left: 919px;
+    margin-top: 100px;
+
+    margin-left: -801px;
+    background-color: #419387;
+    width: 142px;
+    height: 0px;
+
+    text-align: center;
+    padding: 25px 20px;
+    box-sizing: border-box;
+
+
+}
+
+p4 {
+    font-size: 21px;
+    position: relative;
+    top: -15px;
+    left: 6px;
+    font-weight: blod;
+    color: white
+}
+
+#green {
+    position: absolute;
+    top: 354px;
+    margin-top: 10px;
+    left: 187px;
+    margin-left: -150px;
+    background-color: #263589;
+    width: 302px;
+    height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 40px;
+    box-sizing: border-box;
+
+}
+
+#green::before {
+    content: " ";
+    position: absolute;
+    top: -5%;
+    left: 9px;
+    z-index: 0;
+    width: 290px;
+    height: 5%;
+    background-image: -webkit-gradient(linear, 0% 5%, 50% 2%, from(#419387), color-stop(.5, #41a9f9), color-stop(.5, #fff));
+
+    background-repeat: repeat-x;
+    background-color: whitesmoke;
+    background-size: 2px 8px;
+    background-position: 2px 3px;
+}
+
+
+
+#circle1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+    left: -30px;
+    margin-left: 19px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100em;
+    background-color: rgb(41, 99, 111)
+}
+
+#circle2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+    left: -35px;
+    margin-left: 325px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100em;
+    background-color: rgb(41, 99, 111)
+}
+
+.work-deperment {
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 552;
+    position: relative;
+    top: 18px;
+    left: 32px;
+    color: white
+}
+
+.make {
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 552;
+    position: relative;
+    top: 35px;
+    left: 33px;
+    color: white
+}
+
+.internation {
+    letter-spacing: 0.1px;
+    font-size: 13px;
+    font-weight: 552;
+    position: relative;
+    top: 50px;
+    left: -113px;
+    color: white
+}
+
+#end1 {
+
+    position: absolute;
+    top: 398px;
+    margin-top: -21px;
+    left: -9%;
+    margin-left: 100px;
+    z-index: -1;
+    width: 250px;
+    height: 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    background-color: rgb(199, 197, 192);
+}
+
+.anima {
+    animation-name: likes;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+@keyframes likes {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(0.85);
+    }
+
+    75% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleDraw {
+
+    /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+    0% {
+        transform: scale(1);
+        /*开始为原始大小*/
+    }
+
+    50% {
+        transform: scale(1.1);
+        /*放大1.1倍*/
+    }
+}
+
+.play-button-text {
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-weight: 40;
+    position: relative;
+    top: -68px;
+    left: 135px;
+    z-index: 1;
+    color: white;
+
+
+    display: inline-block;
+    animation-name: scaleDraw;
+    /*关键帧名称*/
+    animation-timing-function: ease-in-out;
+    /*动画的速度曲线*/
+    animation-iteration-count: infinite;
+    /*动画播放的次数*/
+    animation-duration: 1.5s;
+    /*动画所花费的时间*/
+}
+
+#showbox {
+    position: absolute;
+    top: 0px;
+    margin-top: 285px;
+    left: 10px;
+    margin-left: 115px;
+    font-size: 19px;
+    font-weight: 500;
+}

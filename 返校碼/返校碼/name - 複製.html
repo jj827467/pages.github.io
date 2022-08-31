@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+  <meta charset="utf-8">
+
+
+  <link rel="stylesheet" href="123.css">
+  <title>返校及进出校园卡</title>
+  <script language="JavaScript">
+    function ShowTime() {
+      var NowDate = new Date();
+      var year = NowDate.getFullYear();
+      var month = NowDate.getMonth() + 1;
+      var day = NowDate.getDate();
+      var h = NowDate.getHours();
+      var m = NowDate.getMinutes();
+      var s = NowDate.getSeconds();
+      document.getElementById('showbox').innerHTML = year + '/' + month + '/' + day + '  ' + h + ':' + m + ':' + s;
+      setInterval('ShowTime()', 1000);
+    }
+  </script>
+
+<body onload="ShowTime()">
+  <div class="background"></div>
+  <div id="end"> </div>
+
+  <div id="name">
+
+    <h1>张永盛</h1>
+    <p>2020055041</p>
+    <p2>信息科技技术学院<br></p2>
+
+    <img class="anima" mode="widthFix" @click="nav" src="./中碼.JPG" style="position:absolute;top:100px;left:90px;">
+
+  </div>
+  <div id="showbox"></div>
+  <div class="play-button-text">予以通行</div>
+
+  <div id="green">
+    <div id="circle1"></div>
+    <div id="circle2"></div>
+  </div>
+
+  <div id="end1"> </div>
+
+  <p5 class="work-deperment">党委学生工作部</p5>
+  <p5 class="make">制</p5>
+  <p5 class="internation">網絡與教育技術中心</p5>
+
+
+</body>
+</head>
+
+</html>
