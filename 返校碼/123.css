@@ -19,7 +19,7 @@ body {
     left: 0;
 
     background-color: rgb(41, 99, 111);
-    padding: 200px 190px;
+    padding: 300px 300px;
     box-sizing: border-box;
     z-index: -1;
 }
@@ -61,6 +61,7 @@ p2 {
     position: relative;
     top: -95px;
     left: 0px;
+    font-weight :bold;
 }
 
 p3 {
@@ -75,7 +76,7 @@ p3 {
     position: relative;
     top: -53px;
     margin-top: 100px;
-    left: 209px;
+    left: 55%;
     margin-left: -150px;
     background-color: 0.0.0.0;
     width: 250px;
@@ -117,7 +118,7 @@ p4 {
     position: absolute;
     top: 354px;
     margin-top: 10px;
-    left: 187px;
+    left: 50%;
     margin-left: -150px;
     background-color: #263589;
     width: 302px;
@@ -172,50 +173,52 @@ p4 {
 }
 
 .work-deperment {
-    letter-spacing: 3px;
+    letter-spacing: 4.5px;
     font-size: 14px;
     font-weight: 552;
     position: relative;
-    top: 18px;
-    left: 32px;
+    top: 80px;
+
+    left: 5%;
     color: white
 }
 
 .make {
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-size: 14px;
     font-weight: 552;
     position: relative;
-    top: 35px;
-    left: 33px;
+    top: 92px;
+    left: 15px;
     color: white
 }
 
 .internation {
-    letter-spacing: 0.1px;
-    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
     font-weight: 552;
     position: relative;
-    top: 50px;
-    left: -113px;
+    top: 80px;
+
+    left: -1%;
     color: white
 }
 
 #end1 {
-
     position: absolute;
-    top: 398px;
-    margin-top: -21px;
-    left: -9%;
-    margin-left: 100px;
-    z-index: -1;
+    top: 370px;
+    margin-top: 10px;
+    left: 57%;
+    margin-left: -150px;
+    background-color: rgb(199, 197, 192);
     width: 250px;
     height: 0px;
     border-radius: 10px;
     text-align: center;
     padding: 40px 40px;
     box-sizing: border-box;
-    background-color: rgb(199, 197, 192);
+    z-index: -1;
+
 }
 
 .anima {
@@ -237,7 +240,7 @@ p4 {
     }
 
     50% {
-        transform: scale(0.85);
+        transform: scale(0.8);
     }
 
     75% {
@@ -258,7 +261,7 @@ p4 {
     }
 
     50% {
-        transform: scale(1.1);
+        transform: scale(1.2);
         /*放大1.1倍*/
     }
 }
@@ -268,8 +271,8 @@ p4 {
     font-size: 21px;
     font-weight: 40;
     position: relative;
-    top: -68px;
-    left: 135px;
+    top: -65px;
+    left: 37%;
     z-index: 1;
     color: white;
 
@@ -285,12 +288,24 @@ p4 {
     /*动画所花费的时间*/
 }
 
+.random {
+
+    font-size: 16px;
+    font-weight: 40;
+    position: relative;
+    top: -64px;
+    left: 34%;
+    z-index: 1;
+    color: white;
+
+}
+
 #showbox {
     position: absolute;
-    top: 0px;
-    margin-top: 285px;
-    left: 10px;
-    margin-left: 115px;
-    font-size: 19px;
-    font-weight: 500;
+    top: 290px;
+    font-weight:550;
+
+    left: 29%;
+    font-size: 18px;
+
 }

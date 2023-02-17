@@ -18,7 +18,15 @@
       var h = NowDate.getHours();
       var m = NowDate.getMinutes();
       var s = NowDate.getSeconds();
-      document.getElementById('showbox').innerHTML = year + '/' + month + '/' + day + '  ' + h + ':' + m + ':' + s;
+      var text = '';
+      if (h>=0 & h<= 12)
+      {
+        text='上午';
+      }else if (h >12 & h<=23)
+      {
+        text='下午';
+      }
+      document.getElementById('showbox').innerHTML = day + '/' + month + '/' + year + '  '+ text + h + ':' + m + ':' + s;
       setInterval('ShowTime()', 1000);
     }
   </script>
@@ -37,19 +45,20 @@
 
   </div>
   <div id="showbox"></div>
-  <div class="play-button-text">予以通行</div>
 
+  <div class="play-button-text">予以通行 </div>
   <div id="green">
     <div id="circle1"></div>
     <div id="circle2"></div>
   </div>
 
-  <div id="end1"> </div>
+  <div id="end1"> 
 
-  <p5 class="work-deperment">党委学生工作部</p5>
-  <p5 class="make">制</p5>
-  <p5 class="internation">网络与教育技术中心</p5>
-
+    <p5 class="work-deperment">党委学生工作部</p5>
+    <p5 class="make">制</p5>
+    <h1 class="internation">网络与教育技术中心</h1>
+  </div>  
+  
 
 </body>
 </head>
