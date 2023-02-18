@@ -15,7 +15,7 @@ body {
     left: 0;
 
     background-color: rgb(41, 99, 111);
-    padding: 255px 210px;
+    padding: 255px 207px;
     box-sizing: border-box;
     z-index: -1;
 }
@@ -218,12 +218,12 @@ p4 {
 }
 
 .anima {
-    animation-name: likes;
+   /* animation-name: likes;
     animation-direction: alternate;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-duration: 1.5s;
+    animation-duration: 1.5s;*/
 }
 
 @keyframes likes {
@@ -265,23 +265,22 @@ p4 {
 .play-button-text {
     letter-spacing: 1px;
     font-size: 21px;
-    font-weight: 40;
+    font-weight: 10;
     position: relative;
     top: -65px;
-    left: 37%;
+    left: 39%;
     z-index: 1;
     color: white;
 
 
     display: inline-block;
-    animation-name: scaleDraw;
-    /*关键帧名称*/
+   /* animation-name: scaleDraw;
+    
     animation-timing-function: ease-in-out;
-    /*动画的速度曲线*/
+   
     animation-iteration-count: infinite;
-    /*动画播放的次数*/
     animation-duration: 1.5s;
-    /*动画所花费的时间*/
+    */
 }
 
 .random {
