@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<title>用戶反饋</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Real estate HTML Template">
+	<meta name="keywords" content="real estate, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/slicknav.min.css">
+	<link rel="shortcut icon" href="圖標.ico">
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="static/css/head.css">
+	<link rel="stylesheet" href="static/css/Carousel.css">
+	<link rel="stylesheet" href="static/css/main.css">
+	<link rel="stylesheet" href="static/css/last.css">
+	<link rel="stylesheet" href="static/css/feedback.css">
+
+</head>
+
+<body>
+	<!-- 開始黑畫面 -->
+	<div id="preloder"></div>
+	<!--頭欄位 -->
+	<header class="header-section">
+		<a href="index.html" class="site-logo">
+			<img src="圖標.ico" alt="">
+		</a>
+		<!--搜索欄-->
+		<nav class="header-nav">
+			<ul class="main-menu">
+				<li><a href="index.html">本頁推荐</a></li>
+				<li><a href="#">我的收藏</a>
+					<ul class="sub-menu">
+						<li><a href="1000.html">1000%</a></li>
+						<li><a href="400.html">400%</a></li>
+					</ul>
+				</li>
+				<li><a href="feedback.html" class="active">意見反饋</a>
+
+			</ul>
+		</nav>
+	</header>
+	<!-- 介面輪播 -->
+	<section class="hero-section set-bg" data-setbg="">
+		<div class="banner">
+			<ul class="imgBox">
+				<li class="active"><img src="img/background4.jpg" alt=""></li>
+				<li><img src="img/background3.jpg" alt=""></li>
+				<li><img src="img/background5.jpg" alt=""></li>
+				<li><img src="img/background2.jpg" alt=""></li>
+			</ul>
+			<ol><!--自定义属性                自定义属性-->
+				<li data-i="0" class="active" data-c="pas"></li>
+				<li data-i="1" data-c="pas"></li>
+				<li data-i="2" data-c="pas"></li>
+				<li data-i="3" data-c="pas"></li>
+			</ol>
+			<div class="left">&lt;</div> <!--&lt;代表"<"-->
+			<div class="right">&gt;</div> <!--&lt;代表">"-->
+		</div>
+	</section>
+
+	<div class="Content-Main">
+			<div class="Content-Main1">
+				<h1>用戶反饋</h1>
+			</div>
+			<form action="" class="form-report">
+				<label>
+					<span>Contact:</span>
+					<select name="select2" class="select2">
+						<option value="Email">Email</option>
+						<option value="Phone">Phone</option>
+						<option value="QQ">QQ</option>
+					</select>
+					<input type="text" placeholder="">
+				</label>
+				<label>
+					<span>Message:</span>
+					<textarea id="mesaage" name="message" placeholder="你的寶貴意見"></textarea>
+				</label>
+				<label>
+					<span>Subject:</span>
+					<select name="select1" class="select1">
+						<option value="General Question">常見問題</option>
+						<option value="buy Question">購買問題</option>
+		
+					</select>		
+				</label>
+				
+				
+			</form>
+			<button class="Yes" onclick="Sure();">確定</button>	
+	</div>
+	
+	<!--====== Javascripts ======-->
+	<script src="static/js/min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/slicknav.js"></script>
+	<script src="static/js/magnific-popup.js"></script>
+	<script src="static/js/main.js"></script>
+	<script src="static/js/Carousel.js"></script>
+
+
+</body>
+<script>
+	function Sure()
+	{
+		alert("提交成功!感謝你的意見");
+	}
+
+</script>
+
+</html>

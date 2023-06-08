@@ -1,0 +1,51 @@
+/* ----------------
+尾部
+ ---------------------*/
+
+
+ .property-section {
+	padding-bottom: 52px;
+}
+
+.property-section .section-title {
+	margin-bottom: 90px;
+}
+
+.property-item {
+	margin-bottom: 55px;
+
+}
+
+.property-item img {
+	min-width: 100%;
+}
+
+.property-item .pi-image {
+	position: relative;
+	margin-bottom: 35px;
+}
+
+
+.property-item h3 {
+	margin-bottom: 10px;
+}
+
+.property-item h5 {
+	margin-bottom: 25px;
+}
+
+.property-item p {
+	margin-bottom: 20px;
+}
+
+
+.readmore-btn {
+	color: #ff000a;
+	text-decoration: underline;
+
+}
+
+.readmore-btn:hover {
+	color: #7c07e9;
+	text-decoration: underline;
+}

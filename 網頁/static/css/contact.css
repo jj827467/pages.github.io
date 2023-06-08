@@ -1,0 +1,101 @@
+/* ----------------
+contact css
+ ---------------------*/
+
+.contact-form {
+	padding: 61px 33px;
+	margin-top: 0px;
+	background: #f5f8fa;
+	text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+	width: 100%;
+	height: 56px;
+	padding: 0 23px;
+	font-size: 14px;
+	color: #3a3a3a;
+	border: none;
+	margin-bottom: 28px;
+	background: #fff;
+}
+
+.contact-form textarea {
+	height: 233px;
+	padding: 20px 23px 10px;
+	resize: none;
+	margin-bottom: 35px;
+}
+
+.contact-form .site-btn {
+	min-width: 335px;
+}
+.contact-form .send_message{
+	min-width: 335px;
+}
+.send_message{
+	font-weight: 700;
+	display: inline-block;
+    border: none;
+    padding: 21px 44px;
+    min-width: 156px;
+    font-size: 16px;
+    background: #ff000a;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+} 
+ 
+/* ----------------
+Responsive
+ ---------------------*/
+
+
+
+ @media (min-width: 1200px){
+	.contact-form{
+		margin-top: 850px;
+	}
+
+ }
+	
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.contact-form{
+		margin-top: 850px;
+	}
+
+}
+
+/* Tablet :768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.contact-form{
+		margin-top: 400px;
+	}
+
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
+	.Content-Main{
+		margin-top: 0px;
+	}
+
+}
+
+/* Small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+	.contact-form{
+		margin-top: 0px;
+	}
+	.contact-form .send_message{
+		min-width: 200px;
+	}
+
+}

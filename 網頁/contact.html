@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Mondy | Real Estate HTML Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Real estate HTML Template">
+	<meta name="keywords" content="real estate, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/slicknav.min.css">
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="static/css/head.css">
+	<link rel="stylesheet" href="static/css/Carousel.css">
+	<link rel="stylesheet" href="static/css/main.css">
+	<link rel="stylesheet" href="static/css/last.css">
+	<link rel="stylesheet" href="static/css/contact.css">
+
+
+
+
+
+
+</head>
+
+<body>
+	<!-- 開始黑畫面 -->
+	<div id="preloder"></div>
+	<!--頭欄位 -->
+	<header class="header-section">
+		<a href="index.html" class="site-logo">
+			<img src="圖標.ico" alt="">
+		</a>
+		<!--导向欄-->
+		<nav class="header-nav">
+			<ul class="main-menu">
+				<li><a href="index.html">本頁推荐</a></li>
+				<li><a href="#">我的收藏</a>
+					<ul class="sub-menu">
+						<li><a href="1000.html">1000%</a></li>
+						<li><a href="400.html">400%</a></li>
+					</ul>
+				</li>
+				<li><a href="feedback.html">意見反饋</a>
+
+			</ul>
+		</nav>
+	</header>
+	<!-- 介面輪播 -->
+	<section class="hero-section set-bg" data-setbg="">
+		<div class="banner">
+			<ul class="imgBox">
+				<li class="active"><img src="img/background4.jpg" alt=""></li>
+				<li><img src="img/background3.jpg" alt=""></li>
+				<li><img src="img/background5.jpg" alt=""></li>
+				<li><img src="img/background2.jpg" alt=""></li>
+			</ul>
+			<ol><!--自定义属性                自定义属性-->
+				<li data-i="0" class="active" data-c="pas"></li>
+				<li data-i="1" data-c="pas"></li>
+				<li data-i="2" data-c="pas"></li>
+				<li data-i="3" data-c="pas"></li>
+			</ol>
+			<div class="left">&lt;</div> <!--&lt;代表"<"-->
+			<div class="right">&gt;</div> <!--&lt;代表">"-->
+		</div>
+	</section>
+
+	
+	<form class="contact-form" name="form">
+		<div class="row">
+			<div class="col-lg-4">
+				<input type="text"  id="name" placeholder="姓名">
+			</div>
+			<div class="col-lg-4">
+				<input type="text" id="email" placeholder="郵件">
+			</div>
+			<div class="col-lg-4">
+				<input type="text" id="sex" placeholder="性別">
+			</div>
+			<div class="col-lg-12">
+				<textarea placeholder="地址" id="address"></textarea>
+				<button class="send_message" onclick="buy();">確定</button>
+			</div>
+		</div>
+	</form>
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="static/js/min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/slicknav.js"></script>
+	<script src="static/js/magnific-popup.js"></script>
+	<script src="static/js/main.js"></script>
+	<script src="static/js/Carousel.js"></script>
+	<script>
+		function buy() {
+
+			const form = document.forms['form'];
+			const name = form.elements.name.value;
+			const email = form.elements.email.value;
+			const sex = form.elements.sex.value;
+			const address = form.elements.address.value;
+			if (name != '' && email != '' && address != '' && sex != '') {
+				alert('姓名是: ' + name + '\n電子郵件是: ' + email + '\n地址是 ' + address + '\n購買成功!!!');
+			}
+			else {
+				alert('不能為空');
+			}
+
+		}
+
+	</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 10px;
+	color: #322429;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 20px;
+	color: #6a6a6a;
+	line-height: 2;
+}
+.hr{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+.spad {
+	padding-top: 800px;
+	padding-bottom: 110px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.pic {
+	overflow: hidden;
+}
+
+.pic img {
+	transform: scale(1, 1);
+	transition: all 1s ease-out;
+}
+
+.pic img:hover {
+	transform: scale(1.2, 1.2);
+}
+.pic > img{
+	margin:20px ;
+}
+.offer-btn {
+	display: inline-block;
+	text-align: center;
+	min-width: 260px;
+	padding: 15px 44px;
+	font-size: 18px;
+	font-weight: 700px;
+	text-transform: none;
+	color: #322429;
+	border: 2px solid #475069;
+	background: #fff;
+
+}
+
+.offer-btn:hover {
+	color: #322429;
+}
+.td img {
+	width: 250px;
+	height: 300px;
+	margin-left:110px;
+	border: 2px black dashed
+}
+table{
+	margin-top:750px ;
+}
+
+/* ----------------
+Responsive
+ ---------------------*/
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1176px;
+	}
+}
+
+/* Medium screen : 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.section-title h2{
+		font-size: 65px;
+	}
+	.spad {
+		padding-top: 750px;
+		padding-bottom: 110px;
+	}
+
+	
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.spad {
+		padding-top: 370px;
+		padding-bottom: 110px;
+	}
+}
+@media only screen and (max-width: 767px)
+{
+	.spad {
+		padding-top: 0px;
+		padding-bottom: 110px;
+	}
+}
+
+/* Small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+	.spad {
+		padding-top: 50px;
+		padding-bottom: 110px;
+	}
+	table{
+		margin-top:50px;
+	}
+	.td img {
+		width: 40%;
+		height: 50%;
+		margin-left:30px;
+		border: 2px black dashed
+	}
+	.td h4{
+		font-size: 15px;
+	}
+}
