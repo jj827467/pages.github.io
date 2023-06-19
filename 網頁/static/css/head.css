@@ -69,7 +69,7 @@ Header section
  ---------------------*/
 
  .header-section {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	left: 0;
 	top: 0;
