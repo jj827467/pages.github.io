@@ -380,6 +380,7 @@ Responsive
 		color: #ff000a;
 	}
 	.hero-section {
+		position: relative;
 		height: auto;
 		padding-top: 250px;
 		padding-bottom: 100px;
